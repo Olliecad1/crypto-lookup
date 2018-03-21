@@ -24,11 +24,24 @@ function createContextMenu() {
 	    "contexts" : ["selection"]
 	});
 	chrome.contextMenus.create({
-		"id" : "lookupDOGETX",
-	    "title" : "Look Up Dogecoin TXID",
+		"id" : "lookupMAXTX",
+	    "title" : "Look Up Maxcoin TXID",
 	    "type" : "normal",
 	    "contexts" : ["selection"]
 	});
+	chrome.contextMenus.create({
+		"id" : "lookupMAXAddress",
+	    "title" : "Look Up Maxcoin Address",
+	    "type" : "normal",
+	    "contexts" : ["selection"]
+	});
+	chrome.contextMenus.create({
+		"id" : "lookupMAXBlock",
+	    "title" : "Look Up Maxcoin Block",
+	    "type" : "normal",
+	    "contexts" : ["selection"]
+	});
+		
 	chrome.contextMenus.create({
 		"id" : "lookupBTCBlock",
 	    "title" : "Look Up Bitcoin Block",
