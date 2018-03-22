@@ -29,6 +29,7 @@ function contextClickHandler(info, tab) {
 			"BTCTX" : "https://blockchain.info/tx/",
 			"LTCTX" : "https://block-explorer.com/tx/",
 			"MAXTX": "https://explorer.maxcoinproject.net/tx/",
+			"MAXBlock": "https://explorer.maxcoinproject.net/block/",
 			"BTCBlock" : "https://blockchain.info/block/"
 		};*/
 
@@ -46,6 +47,7 @@ function contextClickHandler(info, tab) {
         	"LTCTX": ["https://block-explorer.com/tx/", "https://live.blockcypher.com/ltc/tx/", "https://chain.so/tx/LTC/", "https://ltc.blockr.io/tx/info/"][items.ltcExplorer-1],
         	"MAXTX": ["https://explorer.maxcoinproject.net/tx/"][items.maxExplorer-1],
 
+		"MAXBlock": ["https://explorer.maxcoinproject.net/block/"][items.maxExplorer-1],
         	"BTCBlock": ["https://blockchain.info/block/", "https://live.blockcypher.com/btc/block/", "https://chain.so/block/BTC/", "https://btc.blockr.io/block/info/", "https://www.blocktrail.com/BTC/block/"][items.btcExplorer-1],
         	"QRGenerator": ["https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=", "http://chart.apis.google.com/chart?cht=qr&chs=400x400&chl=", "http://qrickit.com/api/qr?qrsize=400&d="][items.qrGenerator-1],
         };
