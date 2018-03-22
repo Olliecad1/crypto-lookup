@@ -16,8 +16,6 @@ This Google Chrome extension allows you to view bitcoin and altcoin addresses, t
 	- Litecoin
 	- Maxcoin
 	- Many more, depending on demand
-- For testing, open the following PasteBin in Chrome and right-click on each example to test: http://pastebin.com/2NYvCn10
-
 
 Features include:
 - Look Up an Address (extension automatically detects the coin and block explorer)
