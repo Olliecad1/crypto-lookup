@@ -6,7 +6,8 @@ This Google Chrome extension allows you to view bitcoin and altcoin addresses, t
 - Look Up Address (Auto-Detects Address from bitcoin, litecoin, maxcoin) / Look Up Bitcoin TXID
 - Send To Address (Auto-Detects Address) - Create a *bitcoin:* link to allow easy opening in desktop wallet
 - Look Up BTC, LTC, or MAX Transaction ID (txid)
-- Lookup Bitcoin Block Hash
+- Look up Bitcoin Block Hash
+- Look Up Maxcoin Block Hash
 - Display QR Code of Text (doesn't have to be cryptocurrency-related)
 
 ## Features:
